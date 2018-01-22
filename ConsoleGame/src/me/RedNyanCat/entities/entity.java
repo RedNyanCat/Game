@@ -8,7 +8,7 @@ public class entity {
 
 	//Inventory
 	
-	inventory inv = new inventory(12);
+	inventory inv = new inventory(12); //getter
 	
 	//Health
 	private double health = 50, maxHealth = health; //getter + setter
@@ -143,6 +143,12 @@ public class entity {
 	}
 	
 	//Getters
+	
+	public inventory getInventory() {
+		
+		return inv;
+		
+	}
 	
 	public double getHealth() {
 		
